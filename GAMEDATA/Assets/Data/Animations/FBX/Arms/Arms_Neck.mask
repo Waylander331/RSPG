@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Arms_Neck
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Arms
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Bip02
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 L Thigh
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 L Thigh/Bip02 L Calf
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 L Thigh/Bip02 L Calf/Bip02 L Foot
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 L Thigh/Bip02 L Calf/Bip02 L Foot/Bip02
+      L Toe0
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 R Thigh
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 R Thigh/Bip02 R Calf
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 R Thigh/Bip02 R Calf/Bip02 R Foot
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 R Thigh/Bip02 R Calf/Bip02 R Foot/Bip02
+      R Toe0
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 LThighTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 LThighTwist/Bip02 LThighTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 RThighTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 RThighTwist/Bip02 RThighTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger0
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger0/Bip02
+      L Finger01
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger0/Bip02
+      L Finger01/Bip02 L Finger02
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger1/Bip02
+      L Finger11
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger1/Bip02
+      L Finger11/Bip02 L Finger12
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger2/Bip02
+      L Finger21
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger2/Bip02
+      L Finger21/Bip02 L Finger22
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger3
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger3/Bip02
+      L Finger31
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger3/Bip02
+      L Finger31/Bip02 L Finger32
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger4
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger4/Bip02
+      L Finger41
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger4/Bip02
+      L Finger41/Bip02 L Finger42
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 Prop2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L ForeTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L ForeTwist/Bip02 L ForeTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 L UpperArm/Bip02 L ForeTwist/Bip02 L ForeTwist1/Bip02 L ForeTwist2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 LUpArmTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 L
+      Clavicle/Bip02 LUpArmTwist/Bip02 LUpArmTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_C_Lower_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_C_Upper_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_L_EyeBrow
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_L_Lip_Corner
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_L_Lower_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_L_Upper_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_R_EyeBrow
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_R_Lip_Corner
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_R_Lower_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Arms_R_Upper_Lip
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/L_Eye
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/L_LEL
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/L_UEL
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Lower_Jaw
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/R_Eye
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/R_LEL
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/R_UEL
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 Neck/Bip02
+      Head/Upper_Jaw
+    m_Weight: 1
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 Prop1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger0
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger0/Bip02
+      R Finger01
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger0/Bip02
+      R Finger01/Bip02 R Finger02
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger1/Bip02
+      R Finger11
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger1/Bip02
+      R Finger11/Bip02 R Finger12
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger2/Bip02
+      R Finger21
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger2/Bip02
+      R Finger21/Bip02 R Finger22
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger3
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger3/Bip02
+      R Finger31
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger3/Bip02
+      R Finger31/Bip02 R Finger32
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger4
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger4/Bip02
+      R Finger41
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger4/Bip02
+      R Finger41/Bip02 R Finger42
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R ForeTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R ForeTwist/Bip02 R ForeTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 R UpperArm/Bip02 R ForeTwist/Bip02 R ForeTwist1/Bip02 R ForeTwist2
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 RUpArmTwist
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Spine2/Bip02 R
+      Clavicle/Bip02 RUpArmTwist/Bip02 RUpArmTwist1
+    m_Weight: 0
+  - m_Path: Root/Bip02/Bip02 Prop3
+    m_Weight: 0

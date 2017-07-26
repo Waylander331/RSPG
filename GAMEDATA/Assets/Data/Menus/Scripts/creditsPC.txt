@@ -1,0 +1,153 @@
+Un concept original de#T
+Felipe Durocher#N
+Arianne Latreille-Blake#N
+Lea Kolpak#N
+Philippe Delmas#N
+#
+Productrice#T
+Isabelle Marazzani#N
+#
+Productrice associee#T
+Annick Dumais#N
+#
+Directeur Artistique#T
+Ludovic Pinard#N
+#
+Lead Modelisation#T
+Andrea Fryett#N
+#
+Lead Level Design#T
+Simon-Albert Boudreault#N
+#
+Lead Scripting#T
+Annick Dumais#N
+#
+Lead Animation#T
+Etienne Carpentier-Mathieu#N
+#
+Animation Technique#T
+Dominic Beaudoin#N
+#
+Modelisation Technique#T
+Philippe Bernard#N
+#
+Lead Shaders#T
+Christian Guertin#N
+#
+Lead SFX#T
+Uri Flamenbaum#N
+#
+Chefs d'equipe Scripting#T
+Felipe Durocher#N
+#
+Chefs d'equipe Scripting (Tools)#T
+Arianne Latreille-Blake#N
+#
+Scripting#T
+Olivier Reid#N
+Lea Kolpak#N
+Arianne Latreille-Blake#N
+Felipe Durocher#N
+Yoan Latulippe#N
+#
+Scripting additionnel#T
+Xavier Nolet#N
+#
+Chefs d'equipe Level Design#T
+Philippe Caron#N
+#
+Chefs d'equipe Level Design (Livrables)#T
+Guy-Daniel Tremblay#N
+#
+Level Design#T
+Marc-Andre Gauthier#N
+Jonathan Lemieux#N
+Guy-Daniel Tremblay#N
+Jonathan Cote Levesque#N
+Philippe Caron#N
+Philippe Delmas#N
+#
+Chefs d'equipe Modelisation#T
+Mohamed Khoudja#N
+#
+Assistante DA#T
+Vanessa Levesque#T
+#
+Level Artist#T
+Charlotte Trichet#N
+Yuebo Fang#N
+Mohamed Khoudja#N
+Mathieu Pelletier#N
+Marie-Christine Loyer#N
+Mehdi Durand#N
+#
+Modeleurs de Personnages#T
+Victor Chassagne#N
+Vanessa Levesque#N
+Mehdi Durand#N
+#
+Chef d'equipe Animation#T
+Lahita Graveson#N
+#
+Assistant DA Animation#T
+Andre Seguin#N
+#
+Animateurs#T
+Lahita Graveson#N
+Maxime Pilon#N
+Andre Seguin#N
+Mathieu Desmeules#N
+#
+Animateurs Techniques#T
+Benoit Tremblay#N
+Marie-Josee St-Pierre-L'Ecuyer#N
+#
+Animateurs SFX#T
+Catherine Proulx#N
+#
+Musique#T
+Julien Denhez#N
+#
+Sound Design#T
+Julien Denhez#N
+#
+Scenario#T
+Arianne Latreille-Blake#N
+#
+Acteurs Vocal#T
+Cedrick Mainville#N
+Arianne Latreille-Blake#N
+#
+Programmation supplementaire#T
+Annick Dumais#N
+#
+Coordonnatrice du Campus ADN#T
+Isabelle Marazzani#N
+#
+Concept Final de#T
+Nous tous#N
+#
+Dir.formation continue CVM#T
+Leesa Hodgson#N
+#
+Dir.formation continue Matane#T
+Christine Dugas#N
+#
+Remerciements#T
+Cegep du Vieux Montreal#N
+Cegep de Matane#N
+Tous nos playtesteurs#N
+#
+Le Campus ADN utilise les logiciels suivants:#T
+Adobe Photoshop#N
+Autodesk 3d Studio Max#N
+Microsoft Office#N
+Perforce#N
+Google Gmail#N
+Substance Painter#N
+ZBrush#N
+Audacity#N
+#
+Et bien sur :#T
+Unity 3D#N
+#

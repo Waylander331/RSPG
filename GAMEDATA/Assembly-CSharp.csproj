@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{3E50CC4A-64C1-5BF4-9C13-1121E88646B7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Data\Animations\FBX\Ingredients\Switch\MoveStateInspector.cs" />
+     <Compile Include="Assets\Data\Animations\FBX\Ingredients\Switch\SwitchAnimation.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\ArmsBarilsSnap.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\AvatarGunSnap.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\BMGunSnap.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\BMTomatoSnap.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\GalleryManager.cs" />
+     <Compile Include="Assets\Data\Gallery\Scripts\GalleryModels.cs" />
+     <Compile Include="Assets\Data\Ingredients\Ring\Ring.cs" />
+     <Compile Include="Assets\Data\Ingredients\Ring\RingMaster.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\CreditsMaster.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\MenuPause.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\MenuPrincipal.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\Splash.cs" />
+     <Compile Include="Assets\Data\Menus\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\AnimCouleurV2.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\EmissiveDimmer.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\FootprintSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\LightDimmer.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\MagnetSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\MagnetSFXTrigger.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\RezboxSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\StarSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\StepDustSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\TomatoSFX.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\scr_AnimCouleur.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\scr_textureAnim.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\scr_uvAnim.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\scr_uvAnimePlayXTimes.cs" />
+     <Compile Include="Assets\Data\SFX\Scripts\scr_uvScrolling.cs" />
+     <Compile Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
+     <Compile Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
+     <Compile Include="Assets\Outils\Reporter\MultiKeyDictionary.cs" />
+     <Compile Include="Assets\Outils\Reporter\Reporter.cs" />
+     <Compile Include="Assets\Outils\Reporter\ReporterGUI.cs" />
+     <Compile Include="Assets\Outils\Reporter\ReporterMessageReceiver.cs" />
+     <Compile Include="Assets\Outils\Reporter\Test\Rotate.cs" />
+     <Compile Include="Assets\Outils\Reporter\Test\TestReporter.cs" />
+     <Compile Include="Assets\Outils\ScreenShotMaker\Scripts\GoToSceneScript.cs" />
+     <Compile Include="Assets\Outils\ScreenShotMaker\Scripts\ScreenShotMaker.cs" />
+     <Compile Include="Assets\Scripts\Arms\Arms_Behavior.cs" />
+     <Compile Include="Assets\Scripts\Avatar\Avatar.cs" />
+     <Compile Include="Assets\Scripts\Avatar\AvatarSFX.cs" />
+     <Compile Include="Assets\Scripts\Avatar\Birdies.cs" />
+     <Compile Include="Assets\Scripts\Avatar\Character_Cont.cs" />
+     <Compile Include="Assets\Scripts\Avatar\Denture.cs" />
+     <Compile Include="Assets\Scripts\Avatar\EmptyHand.cs" />
+     <Compile Include="Assets\Scripts\Avatar\EmptyShadow.cs" />
+     <Compile Include="Assets\Scripts\Avatar\Foot.cs" />
+     <Compile Include="Assets\Scripts\Avatar\FootL.cs" />
+     <Compile Include="Assets\Scripts\Avatar\FootR.cs" />
+     <Compile Include="Assets\Scripts\Avatar\HypeEffect.cs" />
+     <Compile Include="Assets\Scripts\Avatar\ProjectorAv.cs" />
+     <Compile Include="Assets\Scripts\Birds\BirdsParticles.cs" />
+     <Compile Include="Assets\Scripts\Birds\DazeRotation.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\AddScreenVisibleListeners.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\AnimationBridgeman.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\BridgeManVisibleListener.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\BridgeTrigger.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\BridgemanLookAt.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\BridgemanSpin.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\BridgemanStepAudioPlayer.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\StopAtPos.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\Tomato.cs" />
+     <Compile Include="Assets\Scripts\BridgeMan\TomatoSpawn.cs" />
+     <Compile Include="Assets\Scripts\Camera\Camera_LA.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Mirror.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Scripts\Camera\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Scripts\Camera\camBehavior.cs" />
+     <Compile Include="Assets\Scripts\Camera\camEffect.cs" />
+     <Compile Include="Assets\Scripts\Camera\modCam.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyOnReload.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Bar.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\BarWall.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\CameraLookAt.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\CheckPoint.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\CheckPointGizmos.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\CheckPointTrigger.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\CheckpointLightManager.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Collectible.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Diaporama.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Door.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\ElevatorAnimationController.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\ElevatorDoorAnimation.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\ElevatorGearAnimation.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\ElevatorTrigger.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Fist.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\FistTrap.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Lethal.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\LethalMovable.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\LevelDiaporamasDB.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\LiftingPlatform.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\LightsManager.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\MCPlayer.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\MiniRezbox.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\MovableRotation.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\NoSlipPoney.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Pathfinding.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Platform.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\PointBarB.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\PointBarF.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Poney.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Rezbox.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Roller.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\RollerTrigger.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\RotationPoint.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\RotationPointInterval.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\SawAudioSource.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\ScissorLiftPlatform.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Slip.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\StarScreen.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\Stars.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\WaypointScript.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\XCheck.cs" />
+     <Compile Include="Assets\Scripts\Ingredients\spawnpoint.cs" />
+     <Compile Include="Assets\Scripts\Interfaces.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\SpikeTriggered.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\Spikes.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\SpikesAudioPlayer.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\SpikesSequence.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\SpikesSequenceParams.cs" />
+     <Compile Include="Assets\Scripts\Lethal_Pics\SpikesTrigger.cs" />
+     <Compile Include="Assets\Scripts\Manager\CheatManager\CheatManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\CheatManager\FrameRate.cs" />
+     <Compile Include="Assets\Scripts\Manager\ConfigManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\Manager.cs" />
+     <Compile Include="Assets\Scripts\Manager\SoundManager\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\SoundManager\SoundsPrefab.cs" />
+     <Compile Include="Assets\Scripts\Movable.cs" />
+     <Compile Include="Assets\Scripts\NoSlip.cs" />
+     <Compile Include="Assets\Scripts\Outils\Annotation.cs" />
+     <Compile Include="Assets\Scripts\Outils\Collision_google.cs" />
+     <Compile Include="Assets\Scripts\Outils\GizmoRapporteur.cs" />
+     <Compile Include="Assets\Scripts\Outils\GizmoRegle.cs" />
+     <Compile Include="Assets\Scripts\Outils\GizmoRegleFixe.cs" />
+     <Compile Include="Assets\Scripts\Outils\NonCollisionDetec.cs" />
+     <Compile Include="Assets\Scripts\Outils\NonStaticDetect.cs" />
+     <Compile Include="Assets\Scripts\Outils\cutscene\CutSceneMaker.cs" />
+     <Compile Include="Assets\Scripts\Outils\cutscene\CutScene_Avatar.cs" />
+     <Compile Include="Assets\Scripts\Outils\cutscene\CutScene_Camera.cs" />
+     <Compile Include="Assets\Scripts\Outils\cutscene\CutScene_Keyframe.cs" />
+     <Compile Include="Assets\Scripts\Presentateur\Presentateur.cs" />
+     <Compile Include="Assets\Scripts\SetAnimSpeed.cs" />
+     <Compile Include="Assets\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Trigger\ActionPerSide.cs" />
+     <Compile Include="Assets\Scripts\Trigger\BackstageTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\BackstageTriggerGizmos.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\AnEffect.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\EffectList.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_ActivateRotationGroup.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_ActivateSwitch.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Camera_Height.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Camera_Shake.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_ChangeAnimSpeed.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_ChangeCamDistance.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_ChangeInBackstageState.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Change_Level.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Close.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Default.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Enable.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Fix_Camera.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Guide_Camera.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_MC.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Move.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Open.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Rotate.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_SetRotationValues.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_Set_Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_TurnOnTv.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\Effect_toDaze.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Effects\light_controller.cs" />
+     <Compile Include="Assets\Scripts\Trigger\GenericTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SimpleTriggeredObject.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SoundTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\Switch.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SwitchSystem.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TriggerDelay.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TriggerGizmos.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TriggeredObject.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\BossCanon.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\BossManager.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\BrokenRegie.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\CanonLookAt.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\MorceauRegie.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\PresentateurMove.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\BossFight\Regie.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Cinematique\CinCamera.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Cinematique\CinDummies.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Cinematique\CinFoot.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Cinematique\CinManager.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Cinematique\MCCredits.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Curtains\Curtains.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\BrokenStomper.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\BrokenStomperGizmo.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\BrokenStomperTrigger.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\LinkedCam.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\LinkedTV.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\PlayingSoundState.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\ScreenFlicker.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\ScreenInfo.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\ScreenRendererManager.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\ScreenVisibleListener.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\StomperAudioPlayer.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Jo_LC\StomperMovementSystem.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Kid\Kid.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Kid\Knives.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Tuto_YL\StayHyped.cs" />
+     <Compile Include="Assets\Scripts\_Exotiques\Tuto_YL\TutoStar.cs" />
+     <Compile Include="Assets\Scripts\_ScriptExtended\DrawShape.cs" />
+     <Compile Include="Assets\Scripts\_ScriptExtended\Mathfx.cs" />
+     <Compile Include="Assets\Scripts\_ScriptExtended\Randomx.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Colonne.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Interface.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau1.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau2.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau3.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau4.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau_Poney1.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Morceau_Poney2.cs" />
+     <Compile Include="Assets\XLDTestX\Guy\Script\Scr_Poney.cs" />
+     <Compile Include="Assets\XLDTestX\JoeScriptTest\Scr_Peluche.cs" />
+     <Compile Include="Assets\XLDTestX\JoeScriptTest\scr_DestroyPeluche.cs" />
+     <Compile Include="Assets\XScripteursTestX\Annick\IsTriggerable.cs" />
+     <Compile Include="Assets\XScripteursTestX\Annick\TestInterface.cs" />
+     <Compile Include="Assets\XScripteursTestX\Annick\Trigger.cs" />
+     <Compile Include="Assets\XScripteursTestX\Annick\TriggerAction.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\BarBigTrigger.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\BarFoo.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\EmptyB.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\EmptyCibleB.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\EmptyCibleF.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\EmptyF.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\Temp.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\TestML.cs" />
+     <Compile Include="Assets\XScripteursTestX\Fay\WhatASpin.cs" />
+     <Compile Include="Assets\XScripteursTestX\Lea\NmeTest.cs" />
+     <Compile Include="Assets\XScripteursTestX\Lea\ResetTransform.cs" />
+     <Compile Include="Assets\XScripteursTestX\Lea\TempAnn.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\DestructionColonnes\ColonnesFadeOut.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\DestructionColonnes\ExplosionForcePoint.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\DestructionColonnes\Split.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\AutoDestroyHolder.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\Destroy.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\DestroyFrame.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\DirectionModifier.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\DisableCollider.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\DisableParentOnGround.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Destructibles\FadeOnGround.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Old Script\DestroyFrameAtRuntime.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Old Script\DestructibleFrameAtRuntime.cs" />
+     <Compile Include="Assets\XScripteursTestX\Olivier\GenerateDebris\Old Script\GenerateDebrisMeshSize.cs" />
+     <Compile Include="Assets\XScripteursTestX\Scenes\WhatAmI.cs" />
+     <Compile Include="Assets\XScripteursTestX\Yoan\Scripts\AnimatorController.cs" />
+     <Compile Include="Assets\XScripteursTestX\Yoan\Scripts\Carpet.cs" />
+     <Compile Include="Assets\XScripteursTestX\Yoan\Scripts\Test.cs" />
+     <Compile Include="Assets\_Ingredients\Plateforms\NoSlipParent.cs" />
+     <Compile Include="Assets\_Ingredients\_Exotiques\Jo_LC\StomperSFX.cs" />
+     <None Include="Assets\Data\SFX\Scripts\StandardBFCull.shader" />
+     <None Include="Assets\_Ingredients\Presentateur\Projectors\Guidelines.txt" />
+     <None Include="Assets\Data\Animations\FBX\Commentateur\Aeffacer.txt" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Motion\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\_Ingredients\Presentateur\Projectors\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Materials\Shader\SHA_Refraction.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Scripts\Manager\SoundManager\soundsFile.txt" />
+     <None Include="Assets\Materials\Shader\AEFFACER.shader" />
+     <None Include="Assets\Data\Animations\FBX\Bridgeman\Idle\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\XLDTestX\Guy\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Data\Animations\FBX\Arms\Motion\Aeffacer.txt" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Readme.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Data\Animations\FBX\Bridgeman\Aeffacer.txt" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Jump\Aeffacer.txt" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Interaction\Rings\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Materials\Shader\TEST_Fresnel.shader" />
+     <None Include="Assets\StreamingAssets\build_info.txt" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\Refraction.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\Parallax.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Idle\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Data\Animations\FBX\Arms\Aeffacer.txt" />
+     <None Include="Assets\_Ingredients\Presentateur\Projectors\Shaders\Projector Light.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Data\Animations\FBX\Bridgeman\Actions\Aeffacer.txt" />
+     <None Include="Assets\Materials\Shader\SHA_Dusty.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Scripts\Camera\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
+     <None Include="Assets\Data\Animations\FBX\Bridgeman\Motion\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\MirrorReflection.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Interaction\Arms\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Data\Menus\Scripts\creditsPC.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\Tiles.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Action\Aeffacer.txt" />
+     <None Include="Assets\Data\Animations\FBX\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Scripts\Camera\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Bars\Aeffacer.txt" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Data\Animations\FBX\Avatar\Interaction\Poney\Aeffacer.txt" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Outils\Modelisation\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Data\Animations\FBX\Arms\Actions\Aeffacer.txt" />
+     <None Include="Assets\Materials\Shader\SHA_Transluscence.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Scripts\Camera\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
